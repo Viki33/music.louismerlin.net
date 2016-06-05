@@ -1,0 +1,22 @@
+.audiojs {
+  font-size: 14px;
+  background: none;
+}
+.audiojs .progress {
+  background: lightgrey;
+}
+.audiojs .loaded {
+  background: #222;
+}
+.audiojs .time em {
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  text-shadow: none;
+}
+.audiojs .time strong {
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  text-shadow: none;
+}

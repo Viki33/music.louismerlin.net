@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/audio.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h1>Music </h1>
+        <h4>Track 01 (08/04/2016)</h4>
+        <div>
+          <audio src="mp3/balad.mp3" preload="auto" />
+        </div>
+        <h3 style="margin-top: 8px; width:100%; text-align: center">
+          <img src="images/guitar.png" title="Electric Guitar"></img> + <img src="images/bass.png" title="Electric Bass"></img>
+        </h3>
+        <h4>Track 02 (05/06/2016)</h4>
+        <div>
+          <audio src="mp3/bass.mp3" preload="auto" />
+        </div>
+        <h3 style="margin-top: 8px; width:100%; text-align: center">
+          <img src="images/guitar.png" title="Electric Guitar"></img> + <img src="images/bass.png" title="Electric Bass"></img> + <img src="images/edrums.png" title="Electronic Drumset"></img>
+        </h3>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="audiojs/audio.min.js"></script>
+  <script>
+    audiojs.events.ready(function() {
+      var as = audiojs.createAll();
+    });
+  </script>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
